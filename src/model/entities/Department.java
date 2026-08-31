@@ -3,7 +3,7 @@ package model.entities;
 import java.io.Serializable;
 import java.util.Objects;
 
-public class Department implements Serializable {
+public class Department implements Serializable { /*Serializable serve para armazenar os bytes do objeto, para que possam ser levados ao banco de dados*/
     private Integer id;
     private String name;
 

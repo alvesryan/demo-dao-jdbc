@@ -3,7 +3,8 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
-/db.propeties
+db.propeties
+receita.txt
 
 ### Eclipse ###
 .apt_generated

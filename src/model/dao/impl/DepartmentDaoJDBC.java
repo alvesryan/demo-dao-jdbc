@@ -65,6 +65,8 @@ public class DepartmentDaoJDBC implements DepartmentDao {
             preparedStatement.executeUpdate();
         } catch (SQLException e){
             throw new DbException(e.getMessage());
+        } finally {
+            DB.closeStatement(preparedStatement);
         }
     }
 
